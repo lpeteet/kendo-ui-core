@@ -47,7 +47,8 @@ The following example demonstrates how to show Kendo UI Tooltip for Kendo UI Gri
       }
     </style>
     <script>
-      var grid = null;
+      //grid is not used so do not need the variable
+      //var grid = null;
 
       $(document).ready(function () {
         var dataSource = new kendo.data.DataSource({
@@ -66,7 +67,9 @@ The following example demonstrates how to show Kendo UI Tooltip for Kendo UI Gri
           pageSize: 20
         });
 
-        grid = $("#grid").kendoGrid({
+        //grid is not used so do not need the variable
+        //grid = $("#grid").kendoGrid({
+        $("#grid").kendoGrid({
           dataSource: dataSource,
           scrollable: true,
           filterable: true,
